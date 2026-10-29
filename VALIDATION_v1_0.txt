@@ -1,0 +1,9 @@
+KineticFittingPot v1.0 standalone validation
+
+Python compile: PASS
+General Excel-defined batch-model regression: PASS
+Kinetic fitting engine regression: PASS
+Model diagnostics engine regression: PASS
+Residual ReactionPot references in modules/utils after rebranding: None
+
+Numerical engines were copied from the confirmed v1.66 baseline; ReactionPot itself was not modified.

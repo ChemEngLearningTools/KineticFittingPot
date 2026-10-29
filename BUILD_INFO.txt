@@ -1,0 +1,2 @@
+KineticFittingPot v1.23 ABOUT SECTION UPDATE — candidate pre-deployment build
+Based on confirmed v1.22 source; only application code changed: modules/about.py

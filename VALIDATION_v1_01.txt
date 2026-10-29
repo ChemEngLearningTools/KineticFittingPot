@@ -1,0 +1,20 @@
+KineticFittingPot v1.01 validation
+
+Scope of this build:
+- Home/navigation presentation update only.
+- Local browser-launch correction only.
+
+Checks completed:
+- All Python source files compile successfully.
+- Home defines exactly four selectable sections:
+  Fundamentals
+  Forward Modelling
+  Kinetic Fitting
+  Model Diagnostics
+- Home no longer calls workspace_header, so no root-page Back button or breadcrumb is rendered.
+- Each selected section renders only its own coloured workspace cards.
+- Batch/Custom Model workspace Back navigation returns to Forward Modelling.
+- Diagnostics workspace Back navigation returns to Model Diagnostics.
+- run_KineticFittingPot.bat starts Streamlit with --server.headless false.
+- No requirements/dependency changes.
+- No numerical engine, fitting algorithm, workbook/template or case-study data changes.
